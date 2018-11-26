@@ -10,39 +10,40 @@ body{
 .menu{
     background-color:yellow;
     text-align:center;
-    position: fixed;
     width:100%;
     opacity:0.8;
+    position: fixed;
+   
 }
 .big-box{
     background-color:blue;
-    width: 300px;
-    height: 350px;
-    position: absolute;
-    margin-left: 100px;
+    margin-left: 120px;
     margin-top: 100px;
+    width: 350px;
+    height: 400px;
+    position: absolute;
     z-index:-3;
 }
 .small-box{
     background-color:red;
     width: 250px;
     height: 200px;
+    margin-left: 175px;
+    margin-top: 185px;
     position: absolute;
-    margin-left: 125px;
-    margin-top: 170px;
     z-index:-3;
     padding-top: 50px;
-}
-p{
-    color:white;
-    text-align: center;
-    font-style: italic;
 }
 
 a{
     display:block;
     line-height:2;
+    padding-left: 80px;
+    padding-top: 30px;
     font-style: italic;
-    padding-left: 70px;
-    padding-top: 20px;
+}
+p{
+    color:white;
+    font-style: italic;
+    text-align: center;
 }
